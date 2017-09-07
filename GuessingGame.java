@@ -22,6 +22,7 @@ guess();
 	
 
 	 n=s.nextInt();
+if(n>1 && n<100){
 
 	if(n==m){
 			System.out.println("Bingo!");
@@ -40,12 +41,16 @@ guess();
 			lower();
 		}	
 
-       				return 0;
+       	}
+
  
+else
+{
+System.out.println("enter between 1 and 100");
+guess();
+} return 0;
 
-			   }
-
-   
+} 
  	public void lower() {
  guess();  
 				}
@@ -57,6 +62,7 @@ guess();
  guess();
    
 			}
+
 
 
 public static void main(String a[])
